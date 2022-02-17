@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Serif&family=Rubik:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/bgnew2.jpg) no-repeat;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+/* headline & subheadline */
+
+.headline {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Roboto Serif", sans-serif;
+  margin: 15px;
+  text-shadow: 2px 0 2px rgb(245, 245, 245);
+}
+.subheadline {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Roboto Serif", sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 0 2px black;
+  background-color: rgb(75, 75, 75);
+  padding: 4px;
+}
+
+/* nav bar */
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.line1 {
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+.navarea {
+  position: relative;
+}
+
+#about {
+  width: 350px;
+  height: 380px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  margin-left: 40px;
+  position: absolute;
+  bottom: 90px;
+  right: 20px;
+}
+
+.headline-2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  font-family: "Rubik", sans-serif;
+  background-clip: content-box;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.content {
+  padding: 10px;
+  font-family: "Mukta", sans-serif;
+}
+.footer-tab {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  height: 5vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
